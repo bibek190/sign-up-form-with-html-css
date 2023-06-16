@@ -18,7 +18,6 @@ button {
 .container {
   background-color: #eaf4f4;
   width: 70%;
-  height: 60%;
   display: flex;
   border-radius: 2rem;
   box-shadow: 0 5px 5px rgb(111, 146, 98);
@@ -34,6 +33,8 @@ button {
 .sign-in {
   display: flex;
   justify-content: space-between;
+
+  /* min-height: 500px; */
 }
 .sign-in ul li {
   display: inline-flex;
@@ -69,7 +70,7 @@ button {
   justify-content: space-between;
   font-size: 1.2rem;
   font-weight: 400;
-  margin-top: 1rem;
+  margin-top: 5%;
 }
 .base-content input {
   margin-right: 0.5rem;
